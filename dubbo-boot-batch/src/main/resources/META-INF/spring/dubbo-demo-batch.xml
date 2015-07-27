@@ -22,7 +22,7 @@
 
     <dubbo:reference id="demoService" interface="com.vcooline.demo.dubbo.api.DemoService"/>
 
-    <bean class="com.vcooline.demo.dubbo.client.DemoAction" init-method="start">
+    <bean class="com.vcooline.demo.dubbo.client.DemoAction">
         <property name="demoService" ref="demoService"/>
     </bean>
 

@@ -22,7 +22,7 @@
     <modules>
         <module>dubbo-boot-api</module>
         <module>dubbo-boot-service</module>
-        <module>dubbo-boot-client</module>
+        <module>dubbo-boot-batch</module>
         <module>dubbo-boot-web</module>
     </modules>
 
